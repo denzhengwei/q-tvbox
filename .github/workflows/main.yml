@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           owner: qist # fork 的上游仓库 user
           head: tvbox # fork 的上游仓库 branch
           base: q-tvbox # 本地仓库 branch
